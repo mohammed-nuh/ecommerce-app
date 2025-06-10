@@ -1,0 +1,21 @@
+nav {
+    background-color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.myNavButton {
+    text-decoration: none;
+    color: #0d1b2a;
+}
+
+.myNavButton:hover {
+    text-decoration: none;
+    background-color: #003771;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
