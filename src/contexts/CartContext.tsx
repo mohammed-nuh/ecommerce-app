@@ -5,6 +5,7 @@ type CartItem = {
     name: string;
     category: string;
     price: number;
+    image: string;
     quantity: number;
 }
 
@@ -13,6 +14,7 @@ type Item = {
     name: string;
     category: string;
     price: number;
+    image: string;
 }
 
 type CartContextType = {
@@ -32,6 +34,7 @@ export const useCart = () => {
 type CartProviderProps = {
   children: ReactNode;
 };
+
 
 export const CartProvider = ({ children }: CartProviderProps) => {
     let [cart, setCart] = useState<CartItem[]>([]);
